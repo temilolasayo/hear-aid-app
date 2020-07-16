@@ -218,7 +218,7 @@ input[type="email"] {
 .subscribe {
   background: #222624;
   color: #ffffff;
-  height: 500px;
+  height: 700px;
   position: relative;
 }
 
@@ -243,6 +243,10 @@ input[type="email"] {
   position: absolute;
   bottom: 8px;
   left: 16px;
+}
+
+.padBottom {
+  padding-bottom: 12em;
 }
 
 .absoluteFooter {

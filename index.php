@@ -185,6 +185,8 @@
 
       <section class="subscribe pt-5 text-center subscribeFooter">
           <div class="container">
+                          <div class="padBottom">
+
              <div class="pt-5">
                <h4 class="subscribe-header">Sounds Interesting?</h4>
              </div>
@@ -226,6 +228,7 @@
                   </span>
 
                   </div>
+                  </div>
                                       <div class="bottom-left"><img src="imgs/greenfooter.png" alt="Green Footer" /></div>
                                       <div class="absoluteFooter">
 <img src="imgs/footersocial.png" alt="Green Footer"  />
@@ -235,6 +238,7 @@
 <img class="centeredImg" src="imgs/socialthree.png" alt="Social Three"  />
 <!-- <img src="imgs/socialfour.png" alt="Social Four"  /> -->
 
+                  </div>
                   </div>
                   </div>
       </section>
