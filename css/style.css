@@ -102,6 +102,13 @@ input[type="email"] {
   margin-left: 20%;
 }
 
+.footerBg {
+  position: absolute;
+  top: -120px;
+  opacity: 0.3;
+  left: 30%;
+}
+
 .paddingForm {
   padding-right: 10rem !important;
 }

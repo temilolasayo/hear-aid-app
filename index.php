@@ -191,7 +191,9 @@
              <div>
                <p class="subscribe-text pt-5">Subscribe to get notified</p>
              </div>
-
+<div class="footerBg">
+<img src="imgs/blacklogo.png" alt="Footer Logo" />
+</div>
 
 <div class="container py-3 pt-5">
     <span class="text-center">
