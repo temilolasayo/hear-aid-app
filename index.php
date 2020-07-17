@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
     <link rel="icon" href="./imgs/logo.png" type="image/png">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
-    <!-- <script src="https://kit.fontawesome.com/cf87ec6cf2.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/cf87ec6cf2.js" crossorigin="anonymous"></script>
     <title>HearAid</title>
   </head>
   <body>
@@ -92,7 +92,7 @@
                       <span id="subscript">minutes</span>
                       <span id="seconds">  </span>
                       <span id="subscript">seconds</span></h3>
-                  <img src="imgs/X - 10.png" class="desktopheader" alt="Onboarding-screen">
+                  <img src="imgs/headerphone.png" class="desktopheader" alt="Onboarding-screen">
                 </div>
                 
 
@@ -105,11 +105,10 @@
       </section>
 
       <section class="features">
-          <div class="container">
             <div class="container py-5">
               <div class="row app-features">
                 <div class="col-12 col-md-6 feat-img1 zoom">
-                  <img src="imgs/X - 15.png" alt="sound-detector">
+                  <img src="imgs/detectphone.png" alt="sound-detector">
                 </div>
                   <div class="col-12 col-md-6 detect-sound">
                     <span class="first-line">
@@ -139,12 +138,12 @@
                     </div>
                   </div>
                   <div class="col-12 col-md-6 feat-img2 zoom">
-                    <img src="imgs/X - 11.png" alt="sound-detector">
+                    <img src="imgs/listenphone.png" alt="sound-detector">
                   </div>
                   </div>
                 <div class="row app-features3 py-5">
                   <div class="col-12 col-md-6 feat-img1 zoom">
-                    <img src="imgs/X - 15.png" alt="sound-detector">
+                    <img src="imgs/convertphone.png" alt="sound-detector">
                   </div>
                     <div class="col-12 col-md-6 detect-sound">
                       <span class="first-line">
@@ -165,7 +164,7 @@
                       <span class="first-line">
                                                                                             <hr class="createLineLeft" />
 
-                        <i class="fas fa-wifi fa-4x"></i>
+                       <img src="imgs/create.png" alt="Create Icon" width="150" />
                                                                                             <hr class="createLineRight" />
 
                       </span>
@@ -180,13 +179,13 @@
                  </div>
                  <div class="row app-features5 py-5">
                   <div class="col-12 col-md-6 feat-img1 zoom">
-                    <img src="imgs/X - 13.png" alt="sound-detector">
+                    <img src="imgs/previewphone.png" alt="sound-detector" class="imgpad">
                   </div>
                     <div class="col-12 col-md-6 detect-sound">
                       <span class="first-line">
-                            <hr class="saveLineLeft" />
-                        <i class="fas fa-wifi fa-4x"></i>
-                            <hr class="previewLineRight" />
+                            <hr class="saveLineLeftOne" />
+                        <img src="imgs/preview.png" alt="Preview Icon" />
+                            <hr class="saveLineRightOne" />
 
                       </span>
                       <div class="features-details">
@@ -195,13 +194,12 @@
                       </div>
                     </div>
                   </div>
-                  <div class="row app-features6 py-5">
+                  <div class="row app-features6 py-5"  id="features6">
                     <div class="col-12 col-md-6 detect-sound">
                       <span class="first-line">
-                       <hr class="saveLineLeft" />
-
-                        <i class="fas fa-wifi fa-4x"></i>
-                         <hr class="saveLineRight" />
+                       <hr class="saveLineLeftuse" />
+                      <img src="imgs/save.png" alt="sound-detector">
+                         <hr class="saveLineRightUse" />
 
                       </span>
                       <div class="features-details">
@@ -209,8 +207,8 @@
                          <p class="features-text">Set HearAid To Automatically start listening when someone starts talking close to you, or when a particular sound is around the user .the user can manually record sounds at any time to be simulated</p>
                       </div>
                     </div>
-                    <div class="col-12 col-md-6 feat-img2 zoom" id="features6">
-                      <img src="imgs/X-17.png" alt="sound-detector">
+                    <div class="col-12 col-md-6 feat-img2 zoom">
+                      <img src="imgs/savephoneg.png" alt="sound-detector">
                     </div>
                  </div>
               </div>
@@ -229,10 +227,14 @@
                                             <hr class="detectLineRight" />
 
                     </span>
-                    <div class="features-details">
-                       <h4 class=" feature-heading">Detect Sounds</h4>
+                    <div class="features-details" id="detectsound">
+                       <h4 class=" feature-heading pb-5">Detect Sounds</h4>
                                        <div class="col-12 col-md-12 col-sm-12 zoom" id="sound">
-                  <img src="imgs/x15mobile.png" alt="sound-detector">
+                                         <div class="showbox slideright">
+                                                             <img src="imgs/mobileone.png" alt="sound-detector">
+</div> 
+
+                  <!-- <img src="imgs/mobileone.png" alt="sound-detector"> -->
                 </div>
                        <p class=" feature-text"> Set HearAid to automatically start listening when someone starts talking close to you, or when a particular sound is around the user .the user can manually record sounds at any time to be simulated</p>
                   </div>
@@ -248,9 +250,9 @@
 
                     </span>
                     <div class="features-details">
-                       <h4 class=" feature-heading">Listen to Sound</h4>
+                       <h4 class=" feature-heading pb-5">Listen to Sound</h4>
                                        <div class="col-12 col-md-12 col-sm-12 zoom">
-                  <img src="imgs/listenphone.png" alt="sound-detector">
+               <div class="showbox slideright">    <img src="imgs/mobiletwo.png" alt="sound-detector"> </div>
                 </div>
                        <p class=" feature-text">Set HearAid to automatically start listening when someone starts talking close to you, or when a particular sound is around the user .the user can manually record sounds at any time to be simulated</p>
                   </div>
@@ -265,9 +267,9 @@
                       <hr class="detectLineRight" />
                     </span>
                     <div class="features-details">
-                       <h4 class=" feature-heading">Convert Sounds to Video Simulation</h4>
+                       <h4 class=" feature-heading pb-5">Convert Sounds to Video Simulation</h4>
                                        <div class="col-12 col-md-12 col-sm-12 zoom">
-                  <img src="imgs/listenphone.png" alt="sound-detector">
+ <div class="showbox slideright"><img src="imgs/mobilethree.png" alt="sound-detector"> </div>
                 </div>
                        <p class=" feature-text">HearAid uses AI to understand sounds and create a video depicting actions creating the sound</p>
                   </div>
@@ -280,9 +282,9 @@
                       <hr class="createLineRight" />
                     </span>
                     <div class="features-details">
-                       <h4 class=" feature-heading">Create your Unique avatar</h4>
+                       <h4 class=" feature-heading pb-5">Create your Unique avatar</h4>
                                        <div class="col-12 col-md-12 col-sm-12 zoom">
-                  <img src="imgs/createphone.png" alt="sound-detector">
+                <div class="showbox slideright">   <img src="imgs/mobilefour.png" alt="sound-detector"> </div>
                 </div>
                        <p class=" feature-text">hearAid uses AI to understand sounds and create a video depicting actions creating the sound</p>
                   </div>
@@ -295,9 +297,9 @@
                       <hr class="createLineRight" />
                     </span>
                     <div class="features-details" id="preview">
-                       <h4 class=" feature-heading">Preview simulation</h4>
+                       <h4 class=" feature-heading pb-5">Preview simulation</h4>
                                        <div class="col-12 col-md-12 col-sm-12 zoom">
-                  <img src="imgs/previewphone.png" alt="sound-detector">
+                <div class="showbox slideright">   <img src="imgs/mobilefive.png" alt="sound-detector"> </div>
                 </div>
                        <p class=" feature-text">watch sounds as videos , choose qualities and edit videos</p>
                   </div>
@@ -310,15 +312,12 @@
                       <hr class="createLineRight" />
                     </span>
                     <div class="features-details" id="save">
-                       <h4 class=" feature-heading">Save, share and connect to community</h4>
+                       <h4 class=" feature-heading pb-5">Save, share and connect to community</h4>
                                        <div class="col-12 col-md-12 col-sm-12 zoom">
-                  <img src="imgs/savephone.png" alt="sound-detector">
+                 <div class="showbox slideright">  <img src="imgs/mobilesix.png" alt="sound-detector"> </div>
                 </div>
                        <p class=" feature-text">Set HearAid To Automatically start listening when someone starts talking close to you, or when a particular sound is around the user .the user can manually record sounds at any time to be simulated</p>
-                  </div>
                   </div>       
-
-        
       </section>
 
       <section class="subscribe pt-5 text-center subscribeFooter">

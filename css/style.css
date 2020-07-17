@@ -135,6 +135,42 @@ hr {
   top: 7%;
 }
 
+.saveLineLeftOne {
+  position: absolute;
+  width: 85px;
+  height: 5px;
+  left: 10em;
+  background: #c4c4c4;
+  top: 20%;
+}
+
+.saveLineRightOne {
+  position: absolute;
+  width: 85px;
+  height: 5px;
+  right: 7em;
+  background: #c4c4c4;
+  top: 20%;
+}
+
+.saveLineLeftuse {
+  position: absolute;
+  width: 85px;
+  height: 5px;
+  left: 7em;
+  background: #c4c4c4;
+  top: 7%;
+}
+
+.saveLineRightUse {
+  position: absolute;
+  width: 85px;
+  height: 5px;
+  right: 8em;
+  background: #c4c4c4;
+  top: 7%;
+}
+
 .saveLineRight {
   position: absolute;
   width: 85px;
@@ -285,9 +321,14 @@ input[type="email"] {
   margin-top: 400px;
   background-image: url("/imgs/newbg.png");
   background-repeat: no-repeat;
+  /* background-position: 100%; */
 }
 
-.app-features4 {
+/* .row {
+  width: 1440px;
+} */
+
+.app-features5 {
   background-image: url("/imgs/createbg.png");
   background-repeat: no-repeat;
 }
@@ -295,6 +336,7 @@ input[type="email"] {
 #features6 {
   background-image: url("/imgs/savebg.png");
   background-repeat: no-repeat;
+  background-position: 100%;
 }
 
 .detect-sound {
@@ -309,8 +351,12 @@ input[type="email"] {
   padding-left: 100px;
 }
 
+.imgpad {
+  padding-top: 20%;
+}
+
 .features-heading {
-  width: 459px;
+  /* width: 459px;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -318,6 +364,16 @@ input[type="email"] {
   text-align: center;
   letter-spacing: -0.07em;
   text-transform: capitalize;
+  color: #2ec68f; */
+
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
   color: #2ec68f;
 }
 
@@ -326,7 +382,7 @@ input[type="email"] {
 }
 
 .features-text {
-  width: 420px;
+  /* width: 420px;
   height: 68px;
   font-style: normal;
   font-weight: normal;
@@ -336,7 +392,15 @@ input[type="email"] {
   text-transform: capitalize;
   color: #222624;
   text-align: left;
-  padding-left: 70px;
+  padding-left: 70px; */
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  letter-spacing: -0.07em;
+  text-transform: capitalize;
+  color: #222624;
 }
 
 .subscribe {
@@ -440,11 +504,21 @@ input[type="email"] {
     overflow: hidden;
   }
 
+  .app-features {
+    background: none;
+  }
+
+  #detectsound {
+    /* margin-top: 80%; */
+    background-image: url(/imgs/mobilebg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+  }
   .header {
     /* display: none; */
     margin-right: 0 !important;
     overflow-x: hidden;
-
+    margin-bottom: 0 !important;
     height: 972px;
     left: 0px;
     top: 3px;
@@ -547,21 +621,21 @@ input[type="email"] {
   }
 
   .feature-heading {
-    color: #2ec68f;
-
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
-    font-size: 38px;
-    line-height: 46px;
+    font-size: 30px;
+    line-height: 37px;
     text-align: center;
     letter-spacing: -0.07em;
-    text-transform: capitalize;
+    text-transform: uppercase;
+
+    color: #2ec68f;
   }
 
-  .app-features {
+  /* .app-features {
     margin-top: 40px;
-  }
+  } */
 
   .wifiSize {
     width: 25%;
@@ -581,9 +655,11 @@ input[type="email"] {
     font-weight: normal;
     font-size: 13px;
     line-height: 20px;
+    /* or 154% */
 
     letter-spacing: -0.07em;
     text-transform: capitalize;
+
     color: #222624;
   }
 
@@ -681,10 +757,10 @@ input[type="email"] {
     position: absolute;
   }
 
-  #sound {
+  /* #sound {
     background-image: url("/imgs/mobilebg.png");
     background-repeat: no-repeat;
-  }
+  } */
 
   #preview {
     background-image: url("/imgs/previewmobilebg.png");
@@ -694,5 +770,40 @@ input[type="email"] {
   #save {
     background-image: url("/imgs/savemobilebg.png");
     background-repeat: no-repeat;
+    background-position: right;
   }
+
+  .showbox {
+    /* float: left;
+    margin: 4em 1em;
+    width: 100px;
+    height: 60px;
+    border: 2px solid green;
+    background-color: #fff;
+    line-height: 60px;
+    text-align: center; */
+    -webkit-transition: transform 0.1s;
+    -moz-transition: transform 0.1s;
+    -o-transition: transform 0.1s;
+    transition: transform 0.1s;
+    margin: 3em;
+  }
+  .showbox.slideright:hover {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  .secondcreateLineLeft {
+    position: absolute;
+    width: 85px;
+    height: 5px;
+    left: 10em;
+    background: #c4c4c4;
+    top: 23%;
+  }
+
+  /* <div class="showbox slideright">box 1</div> */
 }
