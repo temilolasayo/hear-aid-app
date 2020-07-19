@@ -1,23 +1,28 @@
 <?php
-
-require_once 'config.php';
-if (isset($_POST['email'])) {
-    $email = mysqli_real_escape_string($conn, $_POST['email']);
-    mysqli_query($conn, "insert into emailcapture(email) values ('$email')");
-
-    //Start the session if already not started.
+include_once 'config.php';
+if(isset($_POST['save']))
+{	 
+	 $email = $_POST['email'];
+	 $sql = "INSERT INTO emailcapture (email,regDate)
+	 VALUES ('$email', now())";
+	 if (mysqli_query($conn, $sql)) {
+        echo "New record created successfully !";
+        
+            //Start the session if already not started.
     session_start();
         $_SESSION['success_messagethree'] = "Email saved successfully.";
     header("Location: index.php");
     exit();
-} else {
+	 } else {
+		echo "Error: " . $sql . "
+" . mysqli_error($conn);
+
            session_start();
         $_SESSION['error_messagethree'] = "There was an error saving the email.";
 
     header("Location: index.php");
     exit();
+	 }
+	 mysqli_close($conn);
 }
 ?>
-
-
-
