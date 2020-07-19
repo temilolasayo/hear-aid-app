@@ -43,7 +43,7 @@
                     }
                     ?>
                                         <?php if (isset($_SESSION['error_message']) && !empty($_SESSION['error_message'])) { ?>
-                        <div class="error-message" style="margin-bottom: 20px;font-size: 30px;color: red;"><?php echo $_SESSION['error_message']; ?></div>
+                        <div class="error-message" style="margin-bottom: 20px;font-size: 20px;color: red;"><?php echo $_SESSION['error_message']; ?></div>
                         <?php
                         unset($_SESSION['error_message']);
                     }
@@ -439,7 +439,7 @@
       </section>
       <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Aug, 2020 15:37:25").getTime();
+var countDownDate = new Date("Dec, 2020 15:37:25").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
