@@ -11,5 +11,9 @@ $dbname = "heroku_a4275d67572b90d";
 $conn=mysqli_connect($servername,$username,$password,"$dbname");
 if(!$conn){
    die('Could not Connect My Sql:' .mysql_error());
+} else {
+   $sql = "CREATE TABLE IF NOT EXISTS emailcapture ( id INT(30) NOT NULL AUTO_INCREMENT , email VARCHAR(100) NOT NULL , regDate DATETIME NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;";
+
+   mysqli_query($conn, $sql);
 }
 ?>
